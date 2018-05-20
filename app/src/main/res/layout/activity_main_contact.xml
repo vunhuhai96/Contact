@@ -21,7 +21,8 @@
         <Button android:background="@drawable/ic_add"
             android:layout_width="?attr/actionBarSize"
             android:layout_marginLeft="8dp"
-            android:layout_height="?attr/actionBarSize"/>
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/btn_add_contact"/>
 
     </TableRow>
 
