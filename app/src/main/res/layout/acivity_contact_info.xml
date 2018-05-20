@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="Liên hệ"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Văn A"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TableRow android:layout_width="match_parent"
+                android:layout_marginTop="24dp"
+                android:padding="12dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:src="@drawable/ic_call"
+                        android:layout_height="72dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Gọi"/>
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:src="@drawable/ic_message"
+                        android:layout_height="72dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Nhắn tin"/>
+
+                </LinearLayout>
+
+
+
+            </TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Điện thoại"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0123456789"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="28dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gửi tin nhắn"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thêm vào yêu thích"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xóa"
+                android:padding="16dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorBlue"
+            android:text="Quay lại"
+            android:textAllCaps="false"/>
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorBlue"
+            android:text="Sửa"
+            android:textAllCaps="false"/>
+
+    </TableRow>
+
+
+</LinearLayout>

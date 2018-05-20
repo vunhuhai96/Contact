@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="Liên hệ mới"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Họ tên"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Công ty"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Số điện thoại"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"
+                    android:text="Giới tính"/>
+
+
+                <TableRow android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content">
+
+                        <RadioButton android:text="Nam"
+                            android:layout_weight="1"
+                            android:textSize="20dp"/>
+
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:text="Nữ"
+                        android:textSize="20dp" />
+
+
+                </TableRow>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorBlue"
+            android:text="Hủy"
+            android:textAllCaps="false"/>
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorBlue"
+            android:text="Thêm"
+            android:textAllCaps="false"/>
+
+    </TableRow>
+
+
+</LinearLayout>
